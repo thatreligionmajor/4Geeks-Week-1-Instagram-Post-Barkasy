@@ -1,0 +1,17 @@
+body {
+    background-color: rgb(28, 28, 28);
+}
+.post-container {
+    background-color: black;
+    height: 1250px;
+    width: 1000px;
+    margin: 50px auto;
+    position: relative;
+}
+.post {
+    background-color: white;
+    height: 950px;
+    width: 750px;
+    margin: 100px auto;
+    position: absolute;
+}

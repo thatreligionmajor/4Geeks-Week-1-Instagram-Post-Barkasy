@@ -1,17 +1,26 @@
-body {
-    background-color: rgb(28, 28, 28);
+html{
+    height: 100%;
 }
-.post-container {
-    background-color: black;
-    height: 1250px;
-    width: 1000px;
-    margin: 50px auto;
-    position: relative;
+body{
+    background-color: rgb(36, 34, 34);
+    margin: 0;
+    height: 1000%;
 }
-.post {
+.wrapper{
+    background: black;
+    width: 600px;
+    height: 700px;
+    margin: 20px auto;
+}
+.post{
     background-color: white;
-    height: 950px;
-    width: 750px;
-    margin: 100px auto;
-    position: absolute;
+    height: 700px;
+    width: 400px;
+    margin: auto;
+    border: 15px;
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
 }

@@ -2,19 +2,46 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content=""width=device-width, initial-scale="1.0"
-    <link rel="stylesheet" href="styles.css">
-    <title>IG Post with HTML/CSS</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"> <!-- icons NOT SHOWING -->
+    <title>Instagram</title>
 </head> 
 <body>
-    <div.post-container> <!-- div for post container (use a period for a class name post container, can use a hashtag for an id -->
+    <div.wrapper> <!-- post-container (use a period for a class name post container, can use a hashtag for an id -->
         <div class="post"> <!-- post -->
-            <div.post-header> <!-- post-header -->
+            <div.top> <!-- post-header -->
+                <div.header>
+                    <div.user-icon> <!-- user icon and profile info --> 
+                        <i class="fa-brands fa-html5" style="color: #000000;"></i>
+                    </div>
+                    <div.user-name>
+                        <p><b>HTML5</b> </br> Rigoberto</p>
+                    </div>
+                    <div.menu> <!-- ellipsis icon -->
+                        <i class="fa-solid fa-ellipsis-vertical" style="color: #000000;"></i>
+                    </div>
+                </div>
             </div> <!-- closing post-header -->
-            <div.post-image> <!-- post-image -->
+            <div class="body"> <!-- post-image -->
+                <img src="https://source.unsplash.com/random/?1" alt="the first image goes here">
             </div> <!-- closing post-image -->
-            <div.post-caption> <!-- post-caption (icons and text) -->
-            </div> <!-- closing post-caption -->
+            <div.post-footer>
+                <div.icons>
+                    <div.icons-left>
+                        <i class="fa-regular fa-heart" style="color: #000000;"></i>
+                        <i class="fa-regular fa-comment" style="color: #000000;"></i>
+                        <i class="fa-regular fa-paper-plane" style="color: #000000;"></i>
+                    </div>
+                    <div.icons-right>
+                        
+                    </div>
+                </div>
+                <div.footer> <!-- post-caption (icons and text) -->
+                    <p> Liked by <b> 4GeeksAcademy, HTML5, Web</b> and <b>100,000 others</b></p>
+                    <span> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Inventore officia pariatur nesciunt, sint deserunt esse illo itaque labore facilis cum odit temporibus at iusto quia tenetur excepturi laudantium expedita minus. </span>
+                </div> <!-- closing post-caption -->
+            </div> <!-- close footer -->
         </div> <!-- close post -->
-    </div> <!-- closing div for post container -->
+    </div> <!-- closing post-container -->
 </body>
